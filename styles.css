@@ -219,6 +219,8 @@ header {
 
 h1 {
   color: var(--clr-white);
+  text-align: center;
+  margin: 10px;
 }
 
 /* switch button */
@@ -242,7 +244,7 @@ h1 {
   font-size: 0.85rem;
   cursor: pointer;
   text-transform: capitalize;
-  color: var(--clr-primary-5);
+  color: #000000;
 }
 
 .switch {
@@ -251,7 +253,7 @@ h1 {
   height: 100%;
   top: 0;
   left: 0;
-  background: var(--clr-primary-5);
+  background-color: rgb(125, 209, 0);
   border-radius: var(--radius);
   margin: 0;
   display: block;
@@ -260,6 +262,8 @@ h1 {
 
 .slide .switch {
   left: 50%;
+  background: var(--clr-primary-5);
+
 }
 
 /* header after */
